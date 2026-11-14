@@ -1,0 +1,298 @@
+{
+  "seed": 7,
+  "result": "PASS",
+  "fail_reasons": [],
+  "notes": [],
+  "mission_time_s": 320.7,
+  "state_log": [
+    [
+      0.0,
+      "IDLE"
+    ],
+    [
+      0.0,
+      "TAKEOFF"
+    ],
+    [
+      2.15,
+      "EXPLORE"
+    ],
+    [
+      9.1,
+      "LOCALIZE"
+    ],
+    [
+      10.9,
+      "EXPLORE"
+    ],
+    [
+      99.5,
+      "LOCALIZE"
+    ],
+    [
+      101.35,
+      "EXPLORE"
+    ],
+    [
+      116.3,
+      "LOCALIZE"
+    ],
+    [
+      117.9,
+      "EXPLORE"
+    ],
+    [
+      304.7,
+      "REPORT"
+    ],
+    [
+      306.3,
+      "RETURN"
+    ],
+    [
+      318.0,
+      "LAND"
+    ],
+    [
+      320.6,
+      "DONE"
+    ]
+  ],
+  "survivors": {
+    "total": 6,
+    "detected": 6,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "class_correct": 6,
+    "delivered_to_station": 6
+  },
+  "localization_error_m": {
+    "per_survivor": [
+      0.029,
+      0.079,
+      0.032,
+      0.062,
+      0.052,
+      0.075
+    ],
+    "mean": 0.055,
+    "reported_mean": 0.055
+  },
+  "timing_s": {
+    "first_critical": 99.6,
+    "all_survivors": 116.4,
+    "critical_reported_before_stable_pct": 50.0
+  },
+  "coverage_pct": {
+    "final": 100.0,
+    "series": [
+      [
+        10.0,
+        10.1
+      ],
+      [
+        20.0,
+        17.9
+      ],
+      [
+        30.0,
+        25.9
+      ],
+      [
+        40.0,
+        31.2
+      ],
+      [
+        50.0,
+        38.4
+      ],
+      [
+        60.0,
+        47.7
+      ],
+      [
+        70.0,
+        52.8
+      ],
+      [
+        80.0,
+        61.1
+      ],
+      [
+        90.0,
+        69.2
+      ],
+      [
+        100.0,
+        74.8
+      ],
+      [
+        110.0,
+        82.3
+      ],
+      [
+        120.0,
+        89.5
+      ],
+      [
+        130.0,
+        96.2
+      ],
+      [
+        140.0,
+        100.0
+      ],
+      [
+        150.0,
+        100.0
+      ],
+      [
+        160.0,
+        100.0
+      ],
+      [
+        170.0,
+        100.0
+      ],
+      [
+        180.0,
+        100.0
+      ],
+      [
+        190.0,
+        100.0
+      ],
+      [
+        200.0,
+        100.0
+      ],
+      [
+        210.0,
+        100.0
+      ],
+      [
+        220.0,
+        100.0
+      ],
+      [
+        230.0,
+        100.0
+      ],
+      [
+        240.0,
+        100.0
+      ],
+      [
+        250.0,
+        100.0
+      ],
+      [
+        260.0,
+        100.0
+      ],
+      [
+        270.0,
+        100.0
+      ],
+      [
+        280.0,
+        100.0
+      ],
+      [
+        290.0,
+        100.0
+      ],
+      [
+        300.0,
+        100.0
+      ],
+      [
+        310.0,
+        100.0
+      ]
+    ]
+  },
+  "safety": {
+    "collisions": 0,
+    "min_clearance_m": 0.04,
+    "stuck_recoveries": 0
+  },
+  "stability": {
+    "rms_velocity_error_mps": 0.342,
+    "max_tilt_deg": 28.1,
+    "accel_saturation_pct": 0.86
+  },
+  "energy": {
+    "battery_used_pct": 53.5,
+    "path_length_m": 1069.8
+  },
+  "comms": {
+    "sent": 15,
+    "acked": 12,
+    "failed": 0,
+    "success_rate_pct": 80.0,
+    "mean_latency_s": 0.361
+  },
+  "station_log": [
+    {
+      "id": 0,
+      "class": "stable",
+      "t_recv": 4.79
+    },
+    {
+      "id": 1,
+      "class": "stable",
+      "t_recv": 27.07
+    },
+    {
+      "id": 2,
+      "class": "stable",
+      "t_recv": 81.57
+    },
+    {
+      "id": 3,
+      "class": "critical",
+      "t_recv": 99.83
+    },
+    {
+      "id": 4,
+      "class": "stable",
+      "t_recv": 104.91
+    },
+    {
+      "id": 6,
+      "class": "critical",
+      "t_recv": 116.64
+    },
+    {
+      "id": 3,
+      "class": "critical",
+      "t_recv": 304.8
+    },
+    {
+      "id": 0,
+      "class": "stable",
+      "t_recv": 305.06
+    },
+    {
+      "id": 1,
+      "class": "stable",
+      "t_recv": 304.93
+    },
+    {
+      "id": 2,
+      "class": "stable",
+      "t_recv": 304.97
+    },
+    {
+      "id": 4,
+      "class": "stable",
+      "t_recv": 305.16
+    },
+    {
+      "id": 6,
+      "class": "critical",
+      "t_recv": 306.45
+    }
+  ]
+}
